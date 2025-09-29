@@ -1,9 +1,8 @@
-# streamlit app (very small)
 import streamlit as st
 import pandas as pd
 from car_finder import find_cars
 
-st.title("Quick Car Finder — Demo")
+st.title("Quick Car Finder — to ne continued")
 zip = st.text_input("City / ZIP", "Dallas TX")
 make = st.text_input("Make (optional)")
 model = st.text_input("Model (optional)")

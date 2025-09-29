@@ -60,7 +60,7 @@ class BaseScraper:
         raise NotImplementedError
 
 # ---------------------------
-# eBay Motors scraper (example)
+# eBay Motors scraper
 # ---------------------------
 class EBayMotorsScraper(BaseScraper):
     """Scrape eBay Motors search results (public search pages).
@@ -122,7 +122,7 @@ class EBayMotorsScraper(BaseScraper):
         return results
 
 # ---------------------------
-# SerpAPI / search-engine connector (optional)
+# SerpAPI / search-engine connector
 # ---------------------------
 class SerpAPIScraper(BaseScraper):
     """
